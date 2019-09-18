@@ -1,0 +1,12 @@
+REM 參數說明
+ebookutility.exe -h                 
+
+REM由目前目的所有EPUB檔，將書轉直排，輸出到E:\out
+ebookutility.exe -o E:\out --ch     
+
+REM 由E:\input目錄下所有EPUB檔，將書轉直排，輸出到E:\out
+ebookutility.exe -i E:\input -o E:\out --ch     
+
+REM 由E:\input目錄下所有EPUB檔，將書轉直排，
+REM 並尋找E:\input目錄下與書名相同之圖檔作為封面輸出到E:\out
+ebookutility.exe -i E:\input -o E:\out --ch --cover    
