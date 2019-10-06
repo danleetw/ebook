@@ -1,4 +1,4 @@
-# ebook<BR>
+# 天狗電子書檔轉換器<BR>
 My Ebook Utility<BR>
 <BR>
   <B><CENTER>批次轉換Epub電子書檔工具</CENTER></B><BR>
