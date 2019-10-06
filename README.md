@@ -14,6 +14,6 @@ My Ebook Utility<BR>
 <BR>
 目前版本發佈方式：<BR>
 加<B>Beta</b>為測試中版本<BR>
-未加Beta者，為<font color=blue>相對較穩定版本。</font><BR>
+未加Beta者，為<font color="blue">相對較穩定版本。</font><BR>
 <BR>
 因小弟還不會正確編譯程式，似乎有些防毒軟體會詢問是否要執行。<BR>
