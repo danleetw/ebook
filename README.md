@@ -1,5 +1,5 @@
 # 天狗電子書檔轉換器<BR>
-My Ebook Utility<BR>
+Ten Go!! 一次打十個<BR>
 <BR>
   <B><CENTER>批次轉換Epub電子書檔工具</CENTER></B><BR>
 ☆加封面：可以幫在指定目錄底下，找到跟電子書同名的圖型檔，更換掉原來封面(或是直接新增)<BR>
