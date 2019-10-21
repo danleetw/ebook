@@ -1,3 +1,7 @@
+#**20191021#
+．感謝:感謝V V I P 花圓 辛苦協助除錯。
+．修正:CSS更換功能於屬性前有空白時會誤判問題
+
 #**20191020_5#
 ．修正:呼叫KindleGen時SubProcess錯誤
 ．修正:直排CSS打錯，少轉一個屬性。vertical-align:baseline
