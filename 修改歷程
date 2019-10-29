@@ -1,3 +1,4 @@
+．修正:Epub內圖檔名稱用URL Encode時無法讀取問題
 #**20191028#
 ．修改:TXT讀檔時依檔案編碼自動選擇編碼模式(Beta版)
 ．新增:TXT轉成EPUB,KEPUB,MOBI。(Beta版)
