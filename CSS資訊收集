@@ -1,0 +1,9 @@
+https://www.w3schools.com/css/default.asp
+
+
+body{
+ margin-top:2rem;
+ margin-bottom:2rem;
+ margin-left:2rem;
+ margin-right:2rem;
+}
