@@ -25,14 +25,14 @@ CSS置換及資訊收集
   (5)將body標籤中vertical-align屬性改成baseline
   (6)將body標籤中font-family屬性改成"Apple LiSung Light", "PMingLiU", "MingLiU", serif
 
-  ★範例2:
+  ★範例2:文字加粗
     _ALL_{
           font-weight:900;
          }
     (1)將所有標籤中所有font-weight屬性改成900(文字字體加粗) 
     (2)未描述到的標籤跟屬性不動。　
     
-  ★範例3:
+  ★範例3:刪除屬性（也可以用來刪標籤）
     body{
           _ALL_:;
          }
