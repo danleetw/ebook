@@ -1,9 +1,48 @@
+CSS置換及資訊收集
+
+ ★自訂CSS運作邏輯，給一個新的CSS檔，會跟原來的CSS比對。
+ 
+  1.原來有   新的有 而且有參數值     = 換成新的
+  2.原來有   新的有 而且沒有參數值   = 將原來的CSS刪除
+  3.原來有   新的沒有               = 不動原來的
+  4.原來沒有 新的有 而且有參數值     = 新增一個CSS
+  依照前面邏輯，可以對子參數調整
+    (EX: 以下為置換原來body中三個屬性跟P裏一個屬性，未描述到的，則依原CSS）
+  ★範例1:
+  body{
+         writing-mode:vertical-rl;
+         line-break:normal;
+         -epub-writing-mode:vertical-rl
+         }
+    p{
+          margin:3rem
+         }      
+  (1)將body標籤中所有writeing-mode屬性改成vertical-rl 
+  (2)將body標籤中所有line-break屬性改成normal 
+  (3)將body標籤中所有-epub-writing-mode屬性改成vertical-rl   
+  (4)將p標籤中所有margin屬性改成3rem
+  (5)如果來源裏沒有body標籤,p標籤或沒有屬性，則會將前述標籤加上。
+  (6)未描述到的標籤跟屬性不動。　
+  
+　★範例2:
+    _ALL_{
+          font-weight:900;
+         }
+    (1)將所有標籤中所有font-weight屬性改成900(文字字體加粗) 
+    (2)未描述到的標籤跟屬性不動。　
+  ★範例3:
+    body{
+          _ALL_:;
+         }
+    (1)將所有body標籤中所有屬性<刪除>
+    (2)未描述到的標籤跟屬性不動。　  
+  ★範例4:(降低因為指定字體顏色，造成黑白電子紙看起來模糊問題)
+    _ALL_{
+          color:;
+          }
+    (1)將所有標籤中所有color屬性<刪除>
+    (2)未描述到的標籤跟屬性不動。　  
+
+
+ ★CSS參考資訊網站。
 https://www.w3schools.com/css/default.asp
-
-
-body{
- margin-top:2rem;
- margin-bottom:2rem;
- margin-left:2rem;
- margin-right:2rem;
-}
