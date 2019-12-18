@@ -1,3 +1,4 @@
+．修改:轉碼時，誤把Style內容一併轉碼了，會造成部分CSS失效。
 ．修改:產出EPUB，漏抓TOC的properties，造成輸出檔案沒有目錄。
 #**20191212#
 ．新增:將metadata中所有meta資訊轉入epub中，可以幫Calibre提供需要資訊。
