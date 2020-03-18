@@ -1,3 +1,4 @@
+．修正:轉換Kobo時，未正確加上KOBOSPAN造成KOBO無法記憶最後閱讀位置。
 #**20200115#
 ．修正:轉換Kindle時修正效率太差。
 ．修改:OPT增加primary-writing-mode，避免Kindle邊界過小。
